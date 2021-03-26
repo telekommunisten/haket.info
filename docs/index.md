@@ -1,7 +1,7 @@
 # Haket
 <img src="haket_logo.png" alt="HAKET" width="100"/>
 
-Haket Information Center
+Haket Information Center [FB](https://web.facebook.com/pg/HaketRC/about/)  [discord](https://discord.gg/NvwzFMW5pR) \
 
 [Whitepaper in progress with BTC:HAKET patch](https://pad.riseup.net/p/r.2194016c0fe88594ba97212fe091ec10)
 
@@ -9,7 +9,5 @@ Haket Information Center
 
 2020 [Presentation at Moneylab8](https://youtu.be/eAIrMqbwgFY?t=3118)  \ 
 
-
-[FB](https://web.facebook.com/pg/HaketRC/about/)  \
 2020 [Presentation at Kunsthalle Mulhouse](http://kunsthallemulhouse.com/oeuvres/haket-rational-cryptocurrency/algotaylorism14/)  \
 2019 [Presentation à Cryptopolitiques - en français](https://www.youtube.com/watch?v=Q6VI6_KtIqc)  
