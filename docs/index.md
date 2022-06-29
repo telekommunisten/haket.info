@@ -4,7 +4,7 @@
 Haket Information Center   
 [FB](https://web.facebook.com/pg/HaketRC/about/)  [discord](https://discord.gg/NvwzFMW5pR)  
 
-[Whitepaper in progress with BTC:HAKET patch](https://pad.riseup.net/p/r.2194016c0fe88594ba97212fe091ec10)  
+[Whitepaper in progress with BTC:HAKET patch](https://pad.riseup.net/p/r.76989f4d4d317f98c4269995a09720cd)  
 
 2020 Commentary on our presentation at Moneylab 8 at [We Make Money not Art](https://we-make-money-not-art.com/value-extraction-and-the-workforce-of-the-cryptocene/)   
 
