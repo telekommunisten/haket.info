@@ -8,7 +8,7 @@ Haket Information Center
 
 [The Face Value of Bitcoin: Proof of Work and the Labour Theory of Value](https://www.newsclick.in/face-value-bitcoin-proof-work-and-labour-theory-value)
 
-2022 [Presentation slides](http://unblock-haket.surge.sh/#/) from UNBLOCK conference at University of Leicester 
+2022 [Presentation slides](https://unblock-haket.surge.sh/#/) from UNBLOCK conference at University of Leicester 
 
 2020 Commentary on our presentation at Moneylab 8 at [We Make Money not Art](https://we-make-money-not-art.com/value-extraction-and-the-workforce-of-the-cryptocene/)   
 
