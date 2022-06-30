@@ -1,7 +1,8 @@
 # Haket
 <img src="haket_logo.png" alt="HAKET" width="100"/>
 
-Haket Information Center -@- [FB](https://web.facebook.com/pg/HaketRC/about/)  [discord](https://discord.gg/NvwzFMW5pR)  
+### Haket Information Center 
+-@- [FB](https://web.facebook.com/pg/HaketRC/about/) -@- [discord](https://discord.gg/NvwzFMW5pR)  
 
 [Whitepaper in progress with BTC:HAKET patch](https://pad.riseup.net/p/r.76989f4d4d317f98c4269995a09720cd)  
 
