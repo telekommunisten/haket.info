@@ -1,0 +1,163 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\froman\fcharset0 Times-Italic;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww23820\viewh14640\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\b\fs50 \cf2 \expnd0\expndtw0\kerning0
+Haket, by Telekommunisten
+\f1\b0 \
+rational cryptomoney\'a0\
+Whitepaper DRAFT(ALPHA 3) \'96 03/2020 in progress in progress!!\'a0\'a0\
+Baruch Gottlieb, Dmytri Kleiner\
+\
+Bitcoin:Haket\'a0
+\f0\b  scroll down for DIY BTC:HAKET patch
+\f1\b0 : fork BTC, patch, rationalize!\
+Ethereum:Haket\'a0 {\field{\*\fldinst{HYPERLINK "https://github.com/Eika4/haket/wiki/Get-Started-Testing-Haket"}}{\fldrslt \cf3 \ul \ulc3 https://github.com/Eika4/haket/wiki/Get-Started-Testing-Haket}}\
+\
+\
+ABSTRACT : We present a scalable, rational cryptocurrency. Haket provides all the advantages expected of a reliable distributed, cryptographically secured and verified append-only ledger for transactions, with the added benefits of rational value and disincentive towards speculation and arbitrage. Because the value of the Haket is indexed directly and dynamically to the amount of computational work which must be done to verify each block, its value will not fluctuate erratically, and therefore, unlike most other cryptocurrencies, can serve as a money for cases where a reliable unit of value exchange is required.\'a0 Haket is designed as a fully distributed system using the e2e principle that all participants of the system should contribute more computational resources to the system than they use.\'a0\
+\
+\
+I. INTRODUCTION\'a0\
+Proof of work is work.\'a0 Appealing to the economic theory put forth by the classical political economists Adam Smith, David Ricardo, and updated at the beginning of the industrial age by Karl Marx, all new value comes from human labour. Any monetary unit used for the exchange of value must thus represent a portion of socially necessary labour time, as can be observed in the proportional relationship between the cost of labour and the price of the products of that labour in that monetary unit.\'a0 The relation between a unit of money and the amount of labour it represents must be a fixed 
+\f2\i ratio
+\f1\i0 .\'a0\
+\
+In the age of computation, the labour principle of value creation has not been superseded. The precision hardware, infrastructure, power generation are all available thanks to human labour either contemporary or recorded in and performed by automated hardware.\'a0\
+\
+In a 
+\f2\i rational
+\f1\i0  distributed cryptocurrency system verified by Proof of Work cryptographic hashing, the issuance of the unit of cryptocurrency should correspond directly to the amount of cryptographic \'93work\'94 or hashes needed to verify each block of transactions added to the ledger.\'a0 The qualifier \'93rational\'94 in this sense merely indicates that there is a stable work:coin ratio.\'a0 Most cryptocurrency systems such as Bitcoin are not rational, and therefore according to the LToV, their true value is zero (reference: {\field{\*\fldinst{HYPERLINK "https://blog.p2pfoundation.net/face-value-bitcoin-proof-work-labour-theory-value/2018/02/01"}}{\fldrslt \cf3 \ul \ulc3 https://blog.p2pfoundation.net/face-value-bitcoin-proof-work-labour-theory-value/2018/02/01}} )\'a0\'a0 Such crypto currency instruments which decouple the reward (or "subsidy" as in Bitcoin) from the work required to maintain the reliability of the system are prey to various speculative manipulations such as arbitrage, with the result that these latter financial instruments will never be money, there use will always be predicated on exchanges through other institutional, financial devices such as fiat currency. Cryptocurrencies like Bitcoin will remain volatile asset classes and never become money, and thus can never live up to the expectation that they can provide an alternative basis for economies of scale outside the current banking system. Haket, a 
+\f2\i rational
+\f1\i0  crytocurrency, can be a distributed money.\'a0\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+"One needs to make bitcoin creation more responsive to the needs of of the payment: remove the BTC 21 million limit, block reward is like fiscal spending (miners are the system\'92s workers and are paid by it) we also need the taxing side (what about making the transaction fee payable to the system itself, would destroy bitcoins endogenously). Doing this would make the net creation of bitcoins move with desired net accumulation of bitcoins. We are getting somewhere with that. Block reward should vary with the difficulty." - Eric Tymoigne "The Fair Price of a Bitcoin is Zero"\'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl280\partightenfactor0
+\ls2\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}{\field{\*\fldinst{HYPERLINK "http://neweconomicperspectives.org/2013/12/fair-price-bitcoin-zero.html"}}{\fldrslt \expnd0\expndtw0\kerning0
+\ul http://neweconomicperspectives.org/2013/12/fair-price-bitcoin-zero.html}}\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+
+\f0\b CAVEAT / PROVISO:
+\f1\b0 \'a0 Price is not value.\'a0 However as Haket matures, the correspondence between local price and socially necessary value of the Haket will become consistent. Early adopters should take into account that there will be volatility and dramatic fluctuations during the early stages as miners get online and people begin to use the instrument.\'a0 Also, as it is possible for several Haket chains to be launched from the same code, it is likely that most chains will eventually disappear and all exchange will move to a single chain.\'a0\
+\
+Once Haket matures it is expected that miners to sustain their provision of reliable rational cryptomoney for global transactions at a modest profit.\'a0\
+\
+\
+\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 1. Hashing, work and the value of cryptocurrency
+\f1\b0 \ulnone \
+\
+Cryptocurrency hashing is a process where a computer attempts to solve a mathematical puzzle. The difficulty of the puzzle ensures that solutions are very unlikely, completely verifiable, and impossible to fake. This hashing process, distributed across myriad competing computers (or miners) is integral to guaranteeing the integrity of the exchange system of value tokens without need of a central authority. Unlike a bank, for most cryptocurrencies, the process is entirely transparent. The software which runs the service, distributed on hardware around the world is open source and can be audit-able by anyone with the requisite knowledge of programming.\'a0\'a0 Next, all new transactions and other activity on in the system are published as \'93blocks\'94 in an indelible and unfalsifiable sequence, called a "chain". The contents and integrity of each block is published in the blockchain where it can be accessed and inspected by anyone. The process by which a set of information, especially a sequence of new transactions is verified and rendered canonical requires hashing, and this hashing cryptographic process is recompensed by new tokens which are produced by the software and allocated to the computational agent "miner" which was the first to complete the verification process.\'a0\'a0 The software does three main jobs, it provides a network for the exchange of tokens, it verifies transactions so that users can be sure they will take place as intended, without the possibility of error or fraud, and it produces new tokens.\'a0 These latter two functions are related in that each new token produced is like the treasury signature on a new banknote which at the same time validates a number of transactions.\'a0\
+\
+The process through which a \'93block\'94 of transactions is validated produces new tokens at the end.\'a0 This process involves the competition between the computers of various participants in the network to \'93solve\'94 a mathematical challenge. The challenge itself is something like a lottery whereby any of the computers in the network has a chance of getting the right answer, so the only advantage is to have more computing power. More computing (or hashing) power = more lottery tickets. The competition is trial and error, like playing darts in the dark. The more attempts one can make, higher chance of being the first to win the lottery. This is a brute force competition. More "powerful" computation arrays, also called "mining rigs" with more and faster hardware have an absolute advantage over others. There is a direct relation between the amount of power channeled into hashing and the amount of blocks which are solved, and thereby the amount of block subsidies awarded to any particular mining operation.\'a0\
+\
+The amount of information in each block to be verified remains more or less the same. It may include transaction data as well as any other information. Through the process of competing to verify the block, computers must share the block contents as the contents of the block forms part of the mathematical challenge which must be solved to verify the block. The principle usefulness of the verified block is in its \ul incontrovertible integrity\ulnone  and its \ul indelibility\ulnone . During the mining process the same contents are hashed by all the competing miners, therefore there cannot be one bit of variation in the contents.\'a0 This ensures, for example that no frauds can take place, no checks bounce so to speak. The data in each block is audited by all participating miners and once it is verified, it is published to an append-only ledger called a block chain. The contents of this chain are shared not only by miners but by numerous other users of the transaction service. There is only one way to enter false information into the block chain and that is to physically takeover the reproduction of the entire chain through acquiring or assembling more than 50% of the computer resources of the entire network.\'a0\
+\
+The value of the ability to exchange reliably, securely, in a distributed fashion, is the use value of the cryptocurrency token. The unit exchange value of the token, the "price" at which it can be exchanged for other commodities in the world of human needs must finally devolve to a ratio of the entire amount of computer \'93work\'94 (hashing) which is needed to stabilize the system. In other words, the use value of all the tokens should be equivalent to the amount of work in the whole system, including those who do not \'93win the lottery\'94 but who participated in the process of verifying the block. In principle, according to the labour theory of value, the exchange value, or price, of the token will then be able to be calculated relative to any other commodity, based on the relative amount of work which goes into producing that commodity.\'a0\
+\
+The value of the tokens produced should remain equivalent to all the hashing which was required to verify a block of transactions. This means that the amount of tokens issued should be a ratio of the hashing required for / or difficulty of the verification of a block.\'a0 Today there are about 3500 transactions in each block, which is regulated by the system to be verified every 10 minutes.\'a0 The Hashing rate, is the amount of individual calculations (hashes) a computer has to do per 10 minute bock to compete to verify the block. The current average hashrate is about 110 Exahashes per second, with a new block verified every 600 seconds, this means 60 000 000 000 000 000 000 000 SHA-256 calculations are required to verify a block. Each of these calculations is an actual physical operation which takes place on actual hardware somewhere on this planet.\'a0\
+\
+Materially, this means that electronic charges are being transferred through the computational processing architecture at near the speed of light across arrays of infinitesimal transistors according to programs. The electricity which is required for this process is another much discussed constituent to the assembly. Often, mining operations are located near cheap sources of electrical current, since the relative profit from mining is derived by subtracting the hardware and energy costs of verifying a block from the market value of the token produced by the system to the miner who indelibly verifies the block.\'a0\'a0\
+\
+The material assembly, including power generation, transformation, power grid, telecommunications grid, and individual mining computers, buildings, cooling and personnel operating the computers, are all relevant to the use value of the token produced and to the transaction system the tokens support.\'a0 The entire material assembly must \'93work\'94 and the value of that \'93work\'94 in aggregate should be the base value of the tokens in the system. (Bitcoin, as will be discussed below, cannot maintain this rule, HAKET forks Bitcoin to prove the rule.)\'a0 In fact the cost of a cryptocurrency token will gravitate towards a relative proportion of the aggregate cost of the entire assembly of apparatuses required to produce it, including computational apparatus and network, electricity generation and distribution, including manufacture assembly, in principle all the way back to the mining of minerals required for hardware in every stage of the system, divided by the amount of time the assembly is working to produce the token.\'a0 In a perfect economy, the aggregate labour time, both human labour and that recorded and reanimated through automation, in the amorphous, almost impossible-to-comprehensively-describe network of productive activities which results in the generation of valid tokens will be identical with the use value and thus the cost of the tokens.\'a0\
+\
+To restate: the network effects, generated by the affordance of a reliable distributed electronic token exchange system for secure and reliable global transactions contributes to its exchange value. But this exchange value is always grounded in the use value, the physical value of the material assembly of machines and people which is required to guarantee the integrity of the system.\'a0\
+\
+A cryptocurrency which is able to conserve the ratio between amount of tokens produced and amount of 
+\f2\i work
+\f1\i0  needed to perform all the required capacities of the system will be what we call a "rational" cryptocurrency.\'a0 Since the quantity of tokens is always an index, or record, of work done, this rational cryptocurrency will have the added virtue of having a reliable relative value to other commodities whose price is also an expression of the work done to produce them, therefore it can be used as \ul money\ulnone .\'a0\'a0\
+\
+
+\f0\b \ul 1a. Bitcoin cannot be used as money
+\f1\b0 \ulnone \
+Bitcoin has design features which arbitrarily adjust the ratio between hashing and coin issuance.\'a0 These discrepancies provide structural opportunities for all manner of price distortions. Chief among these design flaws is the arbitrary scheduling of "block subsidy" or token issuance. Bitcoin fixes the amount of coins awarded to the winning miner of each block for extended periods, regardless of the hashing required for any particular block.\'a0 This results in discrepancies between the amount of work required to verify the block and the appropriate work per token ratio.\'a0\'a0 see {\field{\*\fldinst{HYPERLINK "https://blog.p2pfoundation.net/face-value-bitcoin-proof-work-labour-theory-value/2018/02/01"}}{\fldrslt \cf3 \ul \ulc3 https://blog.p2pfoundation.net/face-value-bitcoin-proof-work-labour-theory-value/2018/02/01}}\'a0 The value of all the bitcoins awarded per block is the value of all hashing power used to verify the block, but since the value number of bitcoin is fixed, each bitcoin does not represent a consistent value of work. These discrepancies create instability in the exchange value of Bitcoin and lead to speculation and price shocks. Due to its volatility, it can not be used reliably for every day purposes usually fulfilled by money.\'a0\
+\
+
+\f0\b \ul 1b. Bitcoin:Haket can be used as money
+\f1\b0 \ulnone \
+Bitcoin:HAKET is a fork of Bitcoin which removes the design features that arbitrarily adjust the ratio between hashing and coin issuance. Because the amount of Hakets produced per block is indexed according to the difficulty of that block, hakets do represent a consistent value of work per token issued.\'a0 This "rationalizes" the cryptocurrency allowing it to provide a commodity which can be used reliably\'a0 a universal unit of exchange for other commodities including other currencies. In other words, Bitcoin:Haket can become money.\'a0\
+\
+Cryptocurrencies built on brute force lottery competitions, derive integrity and resilience from their inefficiency. In other words, their wastefulness is a virtue. In cryptography design this is known as entropy. High entropy requires more computer work to solve. The current lottery system implemented in Bitcoin and forked in Haket is very high entropy. Despite their terrible inefficiency and consequent environmental unsustainability, are the only known method to produce a global network of absolutely secure transactions on which an economy outside of the discipline of existing nation-structures can be developed.\
+\
+\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\b \cf2 ---->\'a0\'a0 DIY Bitcoin:Haket patch\'a0\'a0 <-----
+\f1\b0 \
+\
+adjusting block subsidy\'a0\
+validation.cpp\'a0\
+src/miner.cpp starting line 91\'a0\'a0\'a0\
+line 152 BlockAssembler::CreateNewBlock\'a0\
+\
+commit 85f0fc6babec2f9625b0d6afdb9355aae8e62525 (HEAD -> master)\'a0\
+Author: blah <blah@::1>\'a0\
+Date:\'a0\'a0 Thu Feb 27 09:24:08 2020 -0500\'a0\
+\
+\'a0\'a0\'a0 set reward proportionally to difficulty\'a0\
+\
+diff --git a/src/validation.cpp b/src/validation.cpp\'a0\
+index bab04b8e3..7a808e979 100644\'a0\
+--- a/src/validation.cpp\'a0\
++++ b/src/validation.cpp\'a0\
+@@ -7,6 +7,7 @@\'a0\
+\'a0\'a0\
+\'a0#include <arith_uint256.h>\'a0\
+\'a0#include <chain.h>\'a0\
++#include <math.h>\'a0\
+\'a0#include <chainparams.h>\'a0\
+\'a0#include <checkqueue.h>\'a0\
+\'a0#include <consensus/consensus.h>\'a0\
+@@ -28,6 +29,7 @@\'a0\
+\'a0#include <primitives/transaction.h>\'a0\
+\'a0#include <random.h>\'a0\
+\'a0#include <reverse_iterator.h>\'a0\
++#include <rpc/blockchain.h>\'a0\
+\'a0#include <script/script.h>\'a0\
+\'a0#include <script/sigcache.h>\'a0\
+\'a0#include <shutdown.h>\'a0\
+@@ -1219,15 +1221,10 @@ bool ReadRawBlockFromDisk(std::vector<uint8_t>& block, const CBlockIndex* pindex\'a0\
+\'a0\'a0\
+\'a0CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)\'a0\
+\'a0\{\'a0\
+-\'a0\'a0\'a0 int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;\'a0\
+-\'a0\'a0\'a0 // Force block reward to zero when right shift is undefined.\'a0\
+-\'a0\'a0\'a0 if (halvings >= 64)\'a0\
+-\'a0\'a0\'a0\'a0\'a0\'a0\'a0 return 0;\'a0\
+-\'a0\
+-\'a0\'a0\'a0 CAmount nSubsidy = 50 * COIN;\'a0\
+-\'a0\'a0\'a0 // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.\'a0\
+-\'a0\'a0\'a0 nSubsidy >>= halvings;\'a0\
+-\'a0\'a0\'a0 return nSubsidy;\'a0\
++\'a0\'a0\'a0 double difficulty = GetDifficulty(::ChainActive().Tip());\'a0\
++\'a0\'a0\'a0 long hashes_per_block = (long) difficulty * ((pow(2,48))/0xffff);\'a0\
++\'a0\'a0\'a0 CAmount amount = (CAmount) (hashes_per_block >> 40);\'a0\
++\'a0\'a0\'a0 return amount;\'a0\
+\'a0\}\'a0\
+\'a0\'a0\
+\'a0CoinsViews::CoinsViews(\'a0\
+\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\
+\'a0 // end patch\
+\'a0\'a0\
+\'a0\'a0\
+\
+\
+}
