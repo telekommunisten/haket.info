@@ -4,7 +4,7 @@
 ## Haket Information Center 
 [FB](https://web.facebook.com/pg/HaketRC/about/) ||| [discord](https://discord.gg/NvwzFMW5pR)  
 
-[Whitepaper in progress with BTC:HAKET patch]([Haket_Whitepaper.rtf))  
+[Whitepaper in progress with BTC:HAKET patch]([Haket_Whitepaper.rtf)  
 
 [The Face Value of Bitcoin: Proof of Work and the Labour Theory of Value](https://www.newsclick.in/face-value-bitcoin-proof-work-and-labour-theory-value)
 
